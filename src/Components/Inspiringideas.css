@@ -1,0 +1,122 @@
+.aboveline{
+
+    display: grid;
+    justify-content: center;
+    grid-template-columns: 45vw 20vw 20vw;
+    column-gap: 10px;
+    position: relative;
+
+
+}
+.lowerline{
+
+    display: grid;
+    justify-content: center;
+    grid-template-columns: 20vw 20vw 45vw;
+    column-gap: 10px;
+    position: relative;
+    margin-top: 10px;
+
+}
+
+.aboveline p{
+
+    position: absolute;
+    /* top: 20px; */
+    margin-left: 42px;
+    color: aliceblue;
+    
+}
+
+
+.lowerline p{
+
+    position: absolute;
+    margin-left: 42px;
+    color: aliceblue;
+
+
+}
+
+
+.item1 img , .item6 img{
+
+    height: 30vh;
+    width: 45vw;
+    border: 2px;
+    border-radius: 10px;
+}
+
+ .item2 img , .item3 img , .item4 img , .item5 img{
+
+    height: 30vh;
+    width: 20vw;
+    border: 2px;
+    border-radius: 10px;
+
+
+}
+
+
+.item1:hover , .item2:hover , .item3:hover , .item4:hover , .item5:hover , .item6:hover {
+
+    cursor: pointer;
+    transform: scale(1.1);
+
+}
+
+
+
+    
+
+
+
+    h2{
+
+        cursor: pointer;
+        display: flex;
+        justify-content: center;
+        padding: 2vh;
+
+    }
+
+.collectall{
+
+    margin-top: 15vh;
+}
+
+.thingstoknow{
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 8vh;
+
+}
+
+
+.thingstoknowheading{
+
+    margin-top: 10vh;
+}
+.thingstoknowheading p{
+
+    display:flex ;
+    justify-content: center;
+    font-weight: bolder;
+
+    font-family: sans-serif;
+    font-size: 400%;
+    color: rgb(61, 192, 192);
+ 
+
+}
+.contentvisa{
+
+    display: flex;
+    justify-content: flex-start;
+    padding-top: 2vh;
+    font-size: 150%;
+    color: black;
+    font-weight: bold;
+}

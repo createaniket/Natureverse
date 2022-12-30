@@ -1,0 +1,79 @@
+.footer {
+    width: 98vw;
+    background-color: #000;
+    color: #eee;
+    margin-top: 5vh;
+
+    z-index: 1000;
+
+    position: relative;
+    top: 42vh;
+
+}
+
+
+.containerfooter{
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 10vh;
+}
+
+
+.socials{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.socials li{
+    margin: 0 10px;
+}
+
+.socials a{
+    text-decoration: none;
+    color: #fff;
+    border: 1.1px solid white;
+    padding: 5px;
+    border-radius: 50%;
+}
+
+.socials a i{
+    font-size: 1.1rem;
+    width: 20px;
+    transition: color .4s ease;
+}
+.net-use{
+
+    width: 20px;
+}
+
+.socials a:hover i{
+    color: aqua;
+    padding-bottom: 10px;
+}
+
+
+.lefter p:hover {
+    padding-bottom: 12px;
+    border-bottom: 3px solid var(--secondary-color);
+    color: aqua;
+}
+
+
+.righter{
+
+    margin-right: 2vw;
+}
+
+#contactheadingfooter{
+
+    font-size: x-large;
+}
+
+#phone , #email{
+
+    padding: 2px;
+}
