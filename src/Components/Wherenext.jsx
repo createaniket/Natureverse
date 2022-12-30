@@ -6,9 +6,12 @@ import london from "../Assets/london.jpg";
 import ocean from "../Assets/ocean.jpg";
 import winter from "../Assets/manalimm.jpg";
 import usa from "../Assets/usa.jpg";
+import { Link } from "react-router-dom";
 
 const Wherenext = () => {
+  
   return (
+
     <div className="nesc" id="wherenext">
       <div className="maintext">
         <p>PLAN YOUR TRIP</p>
@@ -17,7 +20,14 @@ const Wherenext = () => {
 
       <div className="container">
         <div class="card" style={{ width: "18rem" }}>
-          <img id="singapore" src={singapore} class="card-img-top" alt="..." />
+          <Link to="/singapore">
+            <img
+              id="singapore"
+              src={singapore}
+              class="card-img-top"
+              alt="..."
+            />
+          </Link>
           <div class="card-body">
             <h5 class="card-text">SINGAPORE</h5>
             <div className="hideshow">Click on the image to explore more</div>
@@ -25,7 +35,9 @@ const Wherenext = () => {
         </div>
 
         <div class="card" style={{ width: "18rem" }}>
-          <img src={london} class="card-img-top" alt="..." />
+          <Link to="/london">
+            <img src={london} class="card-img-top" alt="..." />
+          </Link>
           <div class="card-body">
             <h5 class="card-text"> LONDON</h5>
             <div className="hideshow">Click on the image to explore more</div>
@@ -33,7 +45,9 @@ const Wherenext = () => {
         </div>
 
         <div class="card" style={{ width: "18rem" }}>
-          <img src={maldives} class="card-img-top" alt="..." />
+          <Link to="/maldives">
+            <img src={maldives} class="card-img-top" alt="..." />
+          </Link>
           <div class="card-body">
             <h5 class="card-text"> MALDIVES</h5>
             <div className="hideshow">Click on the image to explore more</div>
@@ -41,7 +55,9 @@ const Wherenext = () => {
         </div>
 
         <div class="card" style={{ width: "18rem" }}>
-          <img src={ocean} class="card-img-top" alt="..." />
+          <Link to="/miami">
+            <img src={ocean} class="card-img-top" alt="..." />
+          </Link>
           <div class="card-body">
             <h5 class="card-text">MIAMI</h5>
             <div className="hideshow">Click on the image to explore more</div>
@@ -49,7 +65,9 @@ const Wherenext = () => {
         </div>
 
         <div class="card" style={{ width: "18rem" }}>
-          <img src={winter} class="card-img-top" alt="..." />
+          <Link to="/manali">
+            <img src={winter} class="card-img-top" alt="..." />
+          </Link>
           <div class="card-body">
             <h5 class="card-text">MANALI</h5>
             <div className="hideshow">Click on the image to explore more</div>
@@ -57,7 +75,9 @@ const Wherenext = () => {
         </div>
 
         <div class="card" style={{ width: "18rem" }}>
-          <img src={usa} class="card-img-top" alt="..." />
+          <Link to="/usa">
+            <img src={usa} class="card-img-top" alt="..." />
+          </Link>
           <div class="card-body">
             <h5 class="card-text">U.S.A</h5>
             <div className="hideshow">Click on the image to explore more</div>
