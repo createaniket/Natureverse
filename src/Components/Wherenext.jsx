@@ -15,7 +15,10 @@ const Wherenext = () => {
     <div className="nesc" id="wherenext">
       <div className="maintext">
         <p>PLAN YOUR TRIP</p>
-        <h5>Where to next ?</h5>
+        <h6> <span>
+           Where to next ?
+          </span>
+           </h6>
       </div>
 
       <div className="container">

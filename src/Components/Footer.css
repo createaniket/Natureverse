@@ -77,3 +77,28 @@
 
     padding: 2px;
 }
+
+@media only screen and (max-width: 600px) {
+
+    .footer{
+
+        height: 20vh;
+    }
+    .containerfooter {
+      display: grid;
+      justify-content: center;
+      padding: 2vh;
+    }
+    .lefter{
+        transform: translateX(-16vw);
+        margin-bottom: 2vh;
+    }
+    .righter{
+
+        margin: 1vh;
+    }
+    .middle{
+
+        transform: translateX(1vh);
+    }
+  }

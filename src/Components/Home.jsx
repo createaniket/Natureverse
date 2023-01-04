@@ -16,17 +16,17 @@ const Home = () => {
 
         <div className="thingstoknow">
           <div className="visa">
-            <i class="fa-sharp fa-solid fa-passport fa-10x"></i>{" "}
+            <i class="fa-sharp fa-solid fa-passport fa-10x" id="visaicon"></i>{" "}
             <div className="contentvisa">Visas</div>
           </div>
 
           <div className="travelregulation">
-            <i class="fa-solid fa-ship fa-10x"></i>
+            <i class="fa-solid fa-ship fa-10x" id="shipicon" ></i>
             <div className="contentvisa">Travel Regulations</div>{" "}
           </div>
 
           <div className="traveltips">
-            <i class="fa-solid fa-plane-up fa-10x"></i>
+            <i class="fa-solid fa-plane-up fa-10x" id="flyicon"></i>
             <div className="contentvisa">Travel Tips</div>{" "}
           </div>
         </div>

@@ -57,8 +57,8 @@ video{
     .lineabove{
 
         position: relative;
-        left: 2vh;
-        top: -10vh;
+        left: 13vh;
+        top: -9vh;
     }
 
     .nicheline{
@@ -67,5 +67,10 @@ video{
         font-weight: bolder;
         font-size: 190%;
         transform: translateX(-2vw);
+    }
+
+    video{
+
+        transform: translateY(10vh);
     }
   }
