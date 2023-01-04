@@ -46,5 +46,26 @@ video{
     font-weight: bolder;
     font-size: 200%;
 }
+@media only screen and (max-width: 600px) {
+    .font-face-gm {
+  
+      font-weight: bolder;
+      font-size: 120%;
+   
+    }
+
+    .lineabove{
+
+        position: relative;
+        left: 2vh;
+        top: -10vh;
+    }
+
+    .nicheline{
 
 
+        font-weight: bolder;
+        font-size: 190%;
+        transform: translateX(-2vw);
+    }
+  }
