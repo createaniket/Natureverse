@@ -3,10 +3,12 @@ import Faq from "./Faq";
 import Inspiringideas from "./Inspiringideas";
 import Video from "./Video";
 import Wherenext from "./Wherenext";
+import Navbar from "./Navbar"
 
 const Home = () => {
   return (
     <div>
+      <Navbar />
       <Video />
       <Wherenext />
       <Inspiringideas />

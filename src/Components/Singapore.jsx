@@ -9,6 +9,7 @@ import { useRef, useEffect} from 'react';
 
 
 import mapboxgl from '!mapbox-gl'; // eslint-disable-line import/no-webpack-loader-syntax
+import Navforcomp from './Navforcomp'
 mapboxgl.accessToken = 'pk.eyJ1IjoiYW5pa2V0MDA3IiwiYSI6ImNsYzc0aTZ0ejAwNTYzcmx0eGNhcG0yZmgifQ.ngoju5iLK-l-1e4wooLjug';
 
 const Singapore = () => {
@@ -30,7 +31,7 @@ const Singapore = () => {
         });
   return (
     <div className='all'>
-
+        <Navforcomp />
     <div className='mainimage'>
     <img src={headerimg} alt="" />
     </div>
@@ -41,23 +42,73 @@ const Singapore = () => {
    <div className="columncontainer">
         <div className="left">
 
+
+        <p id='heading'>QUICK FACTS</p>
+
+
+
+        <div className="headingsplace">
+            <div className='place'>
+            <p>Place</p> 
+            </div>
+            <div className="data">
+            <p>
+            Country - Singapore
+
+            </p>
+
+            <p>
+           
+           Continent - ASIA
+
+            </p>
+
+       
+            </div>
+        </div>
+
+        <div className="headingsfood">
+            <div className='place'>
+            <p>Best food items</p> 
+            </div>
+            <div className="data">
+            <p>Bak chor mee</p>
+
+
+            <p>   
+            Nasi padang
+
+            </p>
+            <p>Laksa</p>
+            <p>Kaya toast and eggs</p>
+            <p>Sugarcane juice</p>
+            </div>
+        </div>
+
+        <div className="headingstime">
+            <div className='place'>
+            <p>Best time to visit</p> 
+            </div>
+          <p>December, Jan to Jun</p>
+        </div>
+
         </div>
         <div className="right">
 
             <div className="headingh">
 
-            <h4>Forest</h4>
+            <h4>Singapore</h4>
             </div>
             <div className='abovep'> 
 
-            <p >The importance of forests cannot be underestimated. We depend on forests for our survival, from the air we breathe to the wood we use. Besides providing habitats for animals and livelihoods for humans, forests also offer watershed protection, prevent soil erosion and mitigate climate change.</p>
+
+                <p>Singapore is famous for being a global financial center, being among the most densely populated places in the world, having a world-class city airport with a waterfall, and a Botanic Garden that is a World Heritage Site.</p>
 
             </div>
             <div className="lowerp">
 
             <p > 
-            Spending time around trees and looking at trees reduces stress, lowers blood pressure and improves mood. Numerous studies show that both exercising in forests and simply sitting looking at trees reduce blood pressure as well as the stress-related hormones cortisol and adrenaline.
-            </p>
+           Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta nihil porro quos quaerat dicta rem ut, cum ipsam doloremque voluptatem corrupti assumenda vitae unde et, eaque vel!</p>
             </div>
         </div>
     </div>

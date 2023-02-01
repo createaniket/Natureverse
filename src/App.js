@@ -4,7 +4,6 @@ import Ocean from './Components/Ocean';
 import Forest from './Components/Forest';
 import Hillsnow from './Components/Hillsnow';
 import Manali from './Components/Manali';
-import Navbar from './Components/Navbar';
 
 import Nightlife from './Components/Nightlife';
 import Stargazing from './Components/Stargazing';
@@ -23,8 +22,11 @@ import Maldives from './Components/Maldives';
 import Miami from './Components/Miami';
 import Usa from './Components/Usa';
 import Home from './Components/Home';
+import ScrollToTop from './Components/ScrollToTop';
 
 function App() {
+
+
 
 
   return (
@@ -33,14 +35,14 @@ function App() {
 
 
 
-<Navbar />
 
 
-
+<ScrollToTop/>
 <Routes>
 
 
 <Route path='/'  element={  <Home />  }>  </Route>
+
 
 <Route path='/singapore'  element={  <Singapore />  }>  </Route>
 <Route path='/london'  element={    <London />}>  </Route>

@@ -39,24 +39,53 @@ const Usa = () => {
    <div className="restall">
 
    <div className="columncontainer">
-        <div className="left">
+   <div className="left">
+            <p id="heading">QUICK FACTS</p>
 
-        </div>
+            <div className="headingsplace">
+              <div className="place">
+                <p>Place</p>
+              </div>
+              <div className="data">
+                <p>America</p>
+                <p>United States</p>
+
+              </div>
+            </div>
+
+            <div className="headingsfood">
+              <div className="place">
+                <p>Best food items</p>
+              </div>
+              <div className="data">
+                <p>Burger</p>
+                <p>Cheese Cake</p>
+                <p> Pancakes</p>
+        
+              </div>
+            </div>
+
+            <div className="headingstime">
+              <div className="place">
+                <p>Best time to visit</p>
+              </div>
+              <p> Spring/Autmn</p>
+            </div>
+          </div>
         <div className="right">
 
             <div className="headingh">
 
-            <h4>Forest</h4>
+            <h4>U.S.A</h4>
             </div>
             <div className='abovep'> 
-
-            <p >The importance of forests cannot be underestimated. We depend on forests for our survival, from the air we breathe to the wood we use. Besides providing habitats for animals and livelihoods for humans, forests also offer watershed protection, prevent soil erosion and mitigate climate change.</p>
-
+            <p>The United States of America is a North American nation that is the world's most dominant economic and military power. Likewise, its cultural imprint spans the world, led in large part by its popular culture expressed in music, movies and television.</p>
+          
             </div>
             <div className="lowerp">
 
             <p > 
-            Spending time around trees and looking at trees reduces stress, lowers blood pressure and improves mood. Numerous studies show that both exercising in forests and simply sitting looking at trees reduce blood pressure as well as the stress-related hormones cortisol and adrenaline.
+            The United States is by far the most famous country in the world. It's famous for its attractions, such as the Grand Canyon, tech innovation, sports.
             </p>
             </div>
         </div>

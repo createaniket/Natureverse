@@ -9,6 +9,7 @@ import { useRef, useEffect} from 'react';
 
 
 import mapboxgl from '!mapbox-gl'; // eslint-disable-line import/no-webpack-loader-syntax
+import Navforcomp from './Navforcomp'
 mapboxgl.accessToken = 'pk.eyJ1IjoiYW5pa2V0MDA3IiwiYSI6ImNsYzc0aTZ0ejAwNTYzcmx0eGNhcG0yZmgifQ.ngoju5iLK-l-1e4wooLjug';
 
 const Miami = () => {
@@ -31,6 +32,7 @@ const Miami = () => {
   return (
     <div className='all'>
 
+<Navforcomp />
     <div className='mainimage'>
     <img src={headerimg} alt="" />
     </div>
@@ -39,19 +41,46 @@ const Miami = () => {
    <div className="restall">
 
    <div className="columncontainer">
-        <div className="left">
+   <div className="left">
+            <p id="heading">QUICK FACTS</p>
 
-        </div>
+            <div className="headingsplace">
+              <div className="place">
+                <p>Place</p>
+              </div>
+              <div className="data">
+                <p>State - Florida</p>
+
+                <p> United States</p>
+              </div>
+            </div>
+
+            <div className="headingsfood">
+              <div className="place">
+                <p>Best food items</p>
+              </div>
+              <div className="data">
+                <p>Chicharron</p>
+                <p>Stone crabs</p>
+                <p>Cuban sandwi</p>
+              </div>
+            </div>
+
+            <div className="headingstime">
+              <div className="place">
+                <p>Best time to visit</p>
+              </div>
+              <p> June - August</p>
+            </div>
+          </div>
         <div className="right">
 
             <div className="headingh">
 
-            <h4>Forest</h4>
+            <h4>Miami</h4>
             </div>
             <div className='abovep'> 
-
-            <p >The importance of forests cannot be underestimated. We depend on forests for our survival, from the air we breathe to the wood we use. Besides providing habitats for animals and livelihoods for humans, forests also offer watershed protection, prevent soil erosion and mitigate climate change.</p>
-
+            <p> Miami is known for its strong Cuban Influence, warm weather, pristine beaches, and great diving sites. The city is also home to some famous teams and landmarks such as the Miami Heat, the iconic Miami tower, and the beautiful Everglades National Park.</p>
             </div>
             <div className="lowerp">
 

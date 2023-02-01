@@ -9,6 +9,7 @@ import { useRef, useEffect} from 'react';
 
 
 import mapboxgl from '!mapbox-gl'; // eslint-disable-line import/no-webpack-loader-syntax
+import Navforcomp from './Navforcomp'
 mapboxgl.accessToken = 'pk.eyJ1IjoiYW5pa2V0MDA3IiwiYSI6ImNsYzc0aTZ0ejAwNTYzcmx0eGNhcG0yZmgifQ.ngoju5iLK-l-1e4wooLjug';
 
 const Forest = () => {
@@ -30,6 +31,7 @@ const Forest = () => {
         });
   return (
     <div className='all'>
+      <Navforcomp />
 
     <div className='mainimage'>
     <img src={headerimg} alt="" />
@@ -39,9 +41,42 @@ const Forest = () => {
    <div className="restall">
 
    <div className="columncontainer">
-        <div className="left">
+   <div className="left">
+            <p id="heading">QUICK FACTS</p>
 
-        </div>
+            <div className="headingsplace">
+              <div className="place">
+                <p>Place</p>
+              </div>
+              <div className="data">
+                <p>United States</p>
+
+                <p>Costa Rica</p>
+                <p>Belgium</p>
+              </div>
+            </div>
+
+            <div className="headingsfood">
+              <div className="place">
+                <p>Things to do</p>
+              </div>
+              <div className="data">
+                <p> hiking</p>
+                <p>photography</p>
+                {/* <p>listening to birds</p> */}
+                <p>climbing trees</p>
+                <p>camping.</p>
+             
+              </div>
+            </div>
+
+            <div className="headingstime">
+              <div className="place">
+                <p>When to visit</p>
+              </div>
+              <p>Not in Monsoon</p>
+            </div>
+          </div>
         <div className="right">
 
             <div className="headingh">

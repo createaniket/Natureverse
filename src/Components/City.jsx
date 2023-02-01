@@ -9,6 +9,7 @@ import { useRef, useEffect} from 'react';
 
 
 import mapboxgl from '!mapbox-gl'; // eslint-disable-line import/no-webpack-loader-syntax
+import Navforcomp from './Navforcomp'
 mapboxgl.accessToken = 'pk.eyJ1IjoiYW5pa2V0MDA3IiwiYSI6ImNsYzc0aTZ0ejAwNTYzcmx0eGNhcG0yZmgifQ.ngoju5iLK-l-1e4wooLjug';
 
 const City = () => {
@@ -30,6 +31,7 @@ const City = () => {
         });
   return (
     <div className='all'>
+      <Navforcomp />
 
     <div className='mainimage'>
     <img src={headerimg} alt="" />
@@ -39,25 +41,55 @@ const City = () => {
    <div className="restall">
 
    <div className="columncontainer">
-        <div className="left">
+   <div className="left">
+            <p id="heading">QUICK FACTS</p>
 
-        </div>
+            <div className="headingsplace">
+              <div className="place">
+                <p>Place</p>
+              </div>
+              <div className="data">
+                <p>Paris (Best)</p>
+                <p>Italy</p>
+
+                <p>Denmark</p>
+                <p>Spain</p>
+              </div>
+            </div>
+
+            <div className="headingsfood">
+            <div className="place">
+                <p>Things to Explore</p>
+              </div>
+              <div className="data">
+                <p>Culture </p>
+                <p>photography</p>
+                {/* <p>listening to birds</p> */}
+                <p>Architecture</p>
+             
+              </div>
+            
+            </div>
+
+            <div className="headingstime">
+              <div className="place">
+                <p>Best time to visit</p>
+              </div>
+              <p> The Full Year</p>
+            </div>
+          </div>
         <div className="right">
 
             <div className="headingh">
 
-            <h4>Forest</h4>
+            <h4>Cities to Wonder</h4>
             </div>
             <div className='abovep'> 
-
-            <p >The importance of forests cannot be underestimated. We depend on forests for our survival, from the air we breathe to the wood we use. Besides providing habitats for animals and livelihoods for humans, forests also offer watershed protection, prevent soil erosion and mitigate climate change.</p>
-
+            <p>The demand for travel to cities has greatly increased over the last few decades. While many travel for business or convention purposes, others are traveling on leisure time to learn about other cultures, to develop their specific interests, and to seek entertainment.</p>
             </div>
             <div className="lowerp">
 
-            <p > 
-            Spending time around trees and looking at trees reduces stress, lowers blood pressure and improves mood. Numerous studies show that both exercising in forests and simply sitting looking at trees reduce blood pressure as well as the stress-related hormones cortisol and adrenaline.
-            </p>
+          <p>Tourists' expectations when visiting a particular place are related to several features of the chosen destination: culture, architecture, gastronomy, infrastructure, landscape, events, shopping, etc. These features attract people to the destination and contribute to the overall experience of the trip.</p>
             </div>
         </div>
     </div>

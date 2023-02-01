@@ -1,9 +1,11 @@
 import React from 'react'
 import './About.css'
+import Navforcomp from './navforcomp'
 
 const About = () => {
     return (
         <div className='about' id='about'>
+            <Navforcomp />
             <div className='container'>
                 {/* <img src={sautank} alt='john' /> */}
                 <div className='col-2'>

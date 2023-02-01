@@ -9,6 +9,7 @@ import { useRef, useEffect} from 'react';
 
 
 import mapboxgl from '!mapbox-gl'; // eslint-disable-line import/no-webpack-loader-syntax
+import Navforcomp from './Navforcomp'
 mapboxgl.accessToken = 'pk.eyJ1IjoiYW5pa2V0MDA3IiwiYSI6ImNsYzc0aTZ0ejAwNTYzcmx0eGNhcG0yZmgifQ.ngoju5iLK-l-1e4wooLjug';
 
 const Stargazing = () => {
@@ -30,6 +31,7 @@ const Stargazing = () => {
         });
   return (
     <div className='all'>
+        <Navforcomp />
 
     <div className='mainimage'>
     <img src={headerimg} alt="" />

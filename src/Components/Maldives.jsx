@@ -9,6 +9,7 @@ import { useRef, useEffect} from 'react';
 
 
 import mapboxgl from '!mapbox-gl'; // eslint-disable-line import/no-webpack-loader-syntax
+import Navforcomp from './Navforcomp'
 mapboxgl.accessToken = 'pk.eyJ1IjoiYW5pa2V0MDA3IiwiYSI6ImNsYzc0aTZ0ejAwNTYzcmx0eGNhcG0yZmgifQ.ngoju5iLK-l-1e4wooLjug';
 
 const Maldives = () => {
@@ -30,6 +31,7 @@ const Maldives = () => {
         });
   return (
     <div className='all'>
+      <Navforcomp />
 
     <div className='mainimage'>
     <img src={headerimg} alt="" />
@@ -39,24 +41,52 @@ const Maldives = () => {
    <div className="restall">
 
    <div className="columncontainer">
-        <div className="left">
+   <div className="left">
+            <p id="heading">QUICK FACTS</p>
 
-        </div>
+            <div className="headingsplace">
+              <div className="place">
+                <p>Place</p>
+              </div>
+              <div className="data">
+                <p>Maldives</p>
+
+                <p>Continent - ASIA</p>
+              </div>
+            </div>
+
+            <div className="headingsfood">
+              <div className="place">
+                <p>Best food items</p>
+              </div>
+              <div className="data">
+                <p>Fried Yams</p>
+                <p>Reef Fish Cutlets</p>
+                <p>Mas Huni</p>
+              </div>
+            </div>
+
+            <div className="headingstime">
+              <div className="place">
+                <p>Best time to visit</p>
+              </div>
+              <p> November - April</p>
+            </div>
+          </div>
         <div className="right">
 
             <div className="headingh">
 
-            <h4>Forest</h4>
+            <h4>Maldives</h4>
             </div>
             <div className='abovep'> 
-
-            <p >The importance of forests cannot be underestimated. We depend on forests for our survival, from the air we breathe to the wood we use. Besides providing habitats for animals and livelihoods for humans, forests also offer watershed protection, prevent soil erosion and mitigate climate change.</p>
+            <p>The Maldives is famous for a number of reasons, including its vibrant culture, pristine beaches, sprawling greenery, and fascinating landmarks. Apart from the numerous enchanting landmarks, Maldives is also famous for water sports and other adventure activities.</p>
 
             </div>
             <div className="lowerp">
 
             <p > 
-            Spending time around trees and looking at trees reduces stress, lowers blood pressure and improves mood. Numerous studies show that both exercising in forests and simply sitting looking at trees reduce blood pressure as well as the stress-related hormones cortisol and adrenaline.
+            Maldives is a famous honeymoon destination amongst travellers, but that doesn't mean you have to be legally wedded to share a room or enjoy a vacation in the country.
             </p>
             </div>
         </div>

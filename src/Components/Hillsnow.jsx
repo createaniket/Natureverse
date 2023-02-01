@@ -9,6 +9,7 @@ import { useRef, useEffect} from 'react';
 
 
 import mapboxgl from '!mapbox-gl'; // eslint-disable-line import/no-webpack-loader-syntax
+import Navforcomp from './Navforcomp'
 mapboxgl.accessToken = 'pk.eyJ1IjoiYW5pa2V0MDA3IiwiYSI6ImNsYzc0aTZ0ejAwNTYzcmx0eGNhcG0yZmgifQ.ngoju5iLK-l-1e4wooLjug';
 
 const Hillsnow = () => {
@@ -30,6 +31,7 @@ const Hillsnow = () => {
         });
   return (
     <div className='all'>
+      <Navforcomp />
 
     <div className='mainimage'>
     <img src={headerimg} alt="" />
@@ -39,9 +41,42 @@ const Hillsnow = () => {
    <div className="restall">
 
    <div className="columncontainer">
-        <div className="left">
+   <div className="left">
+            <p id="heading">QUICK FACTS</p>
 
-        </div>
+            <div className="headingsplace">
+              <div className="place">
+                <p>Place</p>
+              </div>
+              <div className="data">
+                <p>India</p>
+                <p> Aomori City</p>
+                <p>Japan</p>
+
+                <p>Belgium</p>
+              </div>
+            </div>
+
+            <div className="headingsfood">
+              <div className="place">
+                <p>Things to do</p>
+              </div>
+              <div className="data">
+                <p> Skiing</p>
+                <p>photography</p>
+                {/* <p>listening to birds</p> */}
+                <p>camping.</p>
+             
+              </div>
+            </div>
+
+            <div className="headingstime">
+              <div className="place">
+                <p>When to visit</p>
+              </div>
+              <p>In winters</p>
+            </div>
+          </div>
         <div className="right">
 
             <div className="headingh">
@@ -49,15 +84,12 @@ const Hillsnow = () => {
             <h4>HILL-SNOW</h4>
             </div>
             <div className='abovep'> 
+            <p>A hill is a piece of land that rises higher than everything surrounding it. It looks like a little bump in the Earth. Since theyre higher than everything around them, hills are good places to get a nice view. Hills are easier to climb than mountains</p>
 
-            <p >The importance of forests cannot be underestimated. We depend on forests for our survival, from the air we breathe to the wood we use. Besides providing habitats for animals and livelihoods for humans, forests also offer watershed protection, prevent soil erosion and mitigate climate change.</p>
-
+           
             </div>
             <div className="lowerp">
-
-            <p > 
-            Spending time around trees and looking at trees reduces stress, lowers blood pressure and improves mood. Numerous studies show that both exercising in forests and simply sitting looking at trees reduce blood pressure as well as the stress-related hormones cortisol and adrenaline.
-            </p>
+                <p>Air surrounding the mountain range is cooler (because of the height) that results in the cooling of water vapors in the air that fall in the form of snow and rain. Plains have a warmer air that does not result in the cooling of water vapors and snow formation.</p>
             </div>
         </div>
     </div>

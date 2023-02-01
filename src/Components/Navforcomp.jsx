@@ -3,7 +3,7 @@ import { FaBars, FaTimes } from 'react-icons/fa'
 
 import './Navbar.css'
 
-const Navbar = () => {
+const Navforcomp = () => {
 
     const [click, setClick] = useState(false)
     const handleClick = () => setClick(!click)
@@ -39,19 +39,10 @@ const Navbar = () => {
                     <li className='nav-item'>
                         <a href='/' onClick={closeMenu}>Home</a>
                     </li>
-                    <li className='nav-item'>
-                        <a href='#wherenext' onClick={closeMenu}>Plan your next trip</a>
-                    </li>
-                    <li className='nav-item'>
-                        <a href='#insprid' onClick={closeMenu}>Inspiring Ideas</a>
-                    </li>
-                    <li className='nav-item'>
-                        <a href='#reqr' onClick={closeMenu}>Necessity</a>
-                    </li>
                 </ul>
             </nav>
         </div>
     )
 }
 
-export default Navbar
+export default Navforcomp

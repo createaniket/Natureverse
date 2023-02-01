@@ -9,6 +9,7 @@ import { useRef, useEffect} from 'react';
 
 
 import mapboxgl from '!mapbox-gl'; // eslint-disable-line import/no-webpack-loader-syntax
+import Navforcomp from './Navforcomp'
 mapboxgl.accessToken = 'pk.eyJ1IjoiYW5pa2V0MDA3IiwiYSI6ImNsYzc0aTZ0ejAwNTYzcmx0eGNhcG0yZmgifQ.ngoju5iLK-l-1e4wooLjug';
 
 const Nightlife = () => {
@@ -30,7 +31,7 @@ const Nightlife = () => {
         });
   return (
     <div className='all'>
-
+      <Navforcomp />
     <div className='mainimage'>
     <img src={headerimg} alt="" />
     </div>
@@ -39,9 +40,40 @@ const Nightlife = () => {
    <div className="restall">
 
    <div className="columncontainer">
-        <div className="left">
+   <div className="left">
+            <p id="heading">QUICK FACTS</p>
 
-        </div>
+            <div className="headingsplace">
+              <div className="place">
+                <p>Places</p>
+              </div>
+              <div className="data">
+                <p>LAS VEGAS</p>
+                <p>PARIS</p>
+                <p>GREECE</p>
+
+                <p>HUNGRY</p>
+              </div>
+            </div>
+
+            <div className="headingsfood">
+              <div className="place">
+                <p>Things to Explore</p>
+              </div>
+              <div className="data">
+                <p>Lightings</p>
+                <p>Pubs</p>
+                <p>Nightclubs</p>
+              </div>
+            </div>
+
+            <div className="headingstime">
+              <div className="place">
+                <p>Best time to visit</p>
+              </div>
+              <p>Whole year</p>
+            </div>
+          </div>
         <div className="right">
 
             <div className="headingh">
@@ -49,15 +81,14 @@ const Nightlife = () => {
             <h4>NIGHT LIFE</h4>
             </div>
             <div className='abovep'> 
+            <p>Nightlife is a collective term for entertainment that is available and generally more popular from the late evening into the early hours of the morning. It includes pubs, bars, nightclubs, parties, live music, concerts, cabarets, theatre, cinemas, and shows.</p>
 
-            <p >The importance of forests cannot be underestimated. We depend on forests for our survival, from the air we breathe to the wood we use. Besides providing habitats for animals and livelihoods for humans, forests also offer watershed protection, prevent soil erosion and mitigate climate change.</p>
 
             </div>
             <div className="lowerp">
 
             <p > 
-            Spending time around trees and looking at trees reduces stress, lowers blood pressure and improves mood. Numerous studies show that both exercising in forests and simply sitting looking at trees reduce blood pressure as well as the stress-related hormones cortisol and adrenaline.
-            </p>
+            The first nightclubs appeared in New York City in the 1840s and 1850s, including McGlory's, and the Haymarket. They enjoyed a national reputation for vaudeville, live music, and dance. They tolerated unlicensed liquor, commercial sex, and gambling cards, chiefly Faro. </p>
             </div>
         </div>
     </div>
