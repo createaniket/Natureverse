@@ -58,6 +58,7 @@ function App() {
 
 
 
+
 <Route path='/stargazing' element={    <Stargazing />}>  </Route>
 <Route path='/manali'     element={    <Manali />}>  </Route>
 <Route path='/forest'     element={    <Forest />}>  </Route>

@@ -36,6 +36,7 @@ const Inspiringideas = () => {
             </Link>
           </div>
         </div>
+        
 
         <div className="lowerline">
           <div class="item4" style={{ width: "18rem" }}>
